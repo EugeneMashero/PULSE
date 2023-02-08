@@ -1,0 +1,18 @@
+@import 'base/variables';
+@import 'base/media';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+*{
+    font-family: 'MuseoModerno', sans-serif;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+@media (max-width: 768px){
+    .container{
+        width: 80%;
+    }
+}
